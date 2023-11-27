@@ -4,10 +4,13 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const navigation = [
-    { name: 'Dashboard', href: '/assets/Components/Loginpage', current: true },
-  { name: 'Team', href: '/assets/Components/Brand_and_Categories', current: false },
-  { name: 'Projects', href: '/assets/Components/Inventories', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  
+  { name: 'Brand and categories', href: '/assets/Components/Brand_and_Categories', current: false },
+  { name: 'Brand categories', href: '/assets/Components/Inventories', current: false },
+  { name: 'Calendar', href: '/assets/Components/Spare_Part_Description', current: false },
+  { name: 'With warranty', href: '/assets/Components/Next', current: false },
+  { name: 'without warranty', href: '/assets/Components/Next2', current: false },
+  { name: 'Calendar', href: '/assets/Components/Spare_Part_Description', current: false },
 ]
     function classNames(...classes) {
         return classes.filter(Boolean).join(' ')}
